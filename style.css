@@ -1,0 +1,51 @@
+
+.container{
+    margin-top:2%;
+    height: 80%;
+    width: 100%;
+    background-color:#d9d2e9;
+    text-align: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#bk{
+    background-color:#d9d2e9;
+
+}
+#row2{
+    margin-top: 4%;
+}
+.activity{
+    position: relative;
+    width: 25vw;
+    height: 20vw;
+    border: 3px solid #fff2cc;
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+}
+#newHobby{
+    margin-top:5%;
+}
+#learn{
+    margin-top: 5%;
+}
+button{
+    position:absolute;
+    bottom: 1%;
+    left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+
+#welcome{
+    top: 0;
+    text-align:center;
+    color:	#d9ead3;
+    text-shadow: 1px 1px 3px #000;
+    background-color:#cfe2f3;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
