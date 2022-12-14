@@ -14,7 +14,7 @@ function getHobby(event){
 
             console.log(hobby);
             document.getElementById("newHobby").innerHTML = hobby.hobby;
-            document.getElementById("learn").innerHTML = hobby.link;
+            document.getElementById("learn").innerHTML = "Learn How Here:"+ "<br>" + hobby.link;
             
            
         } else if (this.readyState == 4) {
