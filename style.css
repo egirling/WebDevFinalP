@@ -26,10 +26,10 @@
     margin-left:auto;
 }
 #newHobby{
-    margin-top:5%;
+    margin-top:20%;
 }
 #learn{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 button{
     position:absolute;
@@ -38,6 +38,9 @@ button{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   
+}
+#newRiddle{
+    font-size:medium;
 }
 
 #welcome{
@@ -48,4 +51,13 @@ button{
     background-color:#cfe2f3;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+#answer{
+    position:absolute;
+    margin-top: 2%;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 11%;
+ 
+
 }
