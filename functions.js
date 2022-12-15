@@ -134,11 +134,6 @@ console.log("in getFacts");
             
             document.getElementById("newFact").innerHTML = object[0].fact;
             
-            
-            
-            
-            
-           
         } else if (this.readyState == 4) {
             console.log(this.responseText);
         }
