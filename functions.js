@@ -146,9 +146,18 @@ console.log("in getFacts");
     xhttp2.send();
 }
 
+function showSearch(event){
+    document.getElementById("searchWindow").style.display = "block";
+}
+function closeSearch(event){
+    document.getElementById("searchWindow").style.display = "none";
+}
+
 
 
 document.getElementById("hobbyButton").addEventListener("click", getHobby);
 document.getElementById("bucketButton").addEventListener("click", getBucketList);
 document.getElementById("riddleButton").addEventListener("click", getRiddle);
 document.getElementById("factButton").addEventListener("click", getFacts);
+document.getElementById("open").addEventListener("click", showSearch);
+document.getElementById("close").addEventListener("click", closeSearch);
